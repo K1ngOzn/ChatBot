@@ -2,11 +2,11 @@ def dash():
   print("-------------------------------")
 
 
-print("Welcome to Erik's Shop")
-name = input("what is you name?: ")
+print("Welcome to HTTK, Erik's Shop")
+name = input("What is you name?: ")
 dash()
 print(f"Hello {name}")
-print("what can i help you in?")
+print("What can I help you in?")
 question = input("-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n\n")
 question.lower()
 while question.lower(
@@ -17,7 +17,7 @@ while question.lower(
     )
     dash()
     question = input(
-      "choose something else\n-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n"
+      "Choose something else\n-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n"
     )
   elif question.lower() == "locations":
     print(
@@ -25,13 +25,13 @@ while question.lower(
     )
     dash()
     question = input(
-      "choose something else\n-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n"
+      "Choose something else\n-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n"
     )
   elif question.lower() == "store hours":
     print("Our store is open from 6:00AM to 12:00PM all week")
     dash()
     question = input(
-      "choose something else\n-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n"
+      "Choose something else\n-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n"
     )
   elif question.lower() == "products":
     print(
@@ -39,7 +39,7 @@ while question.lower(
     )
     dash()
     question = input(
-      "choose something else\n-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n"
+      "Choose something else\n-Prices\n-Locations\n-Store Hours\n-Products\n-Exit\n"
     )
   elif question.lower() == "exit":
     break
@@ -49,6 +49,6 @@ while question.lower(
     )
     dash()
     question = input(
-      "choose something else\n-Prices\n-Locations\n-Store Hours\n-Available Products\n-Exit\n"
+      "Choose something else\n-Prices\n-Locations\n-Store Hours\n-Available Products\n-Exit\n"
     )
-print(f"Thank you {name} for visiting Erik's Shop\nHope to see you soon")
+print(f"Thank you {name} for visiting HTTK\nHope to see you soon")
